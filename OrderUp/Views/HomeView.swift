@@ -70,7 +70,6 @@ struct HomeView: View {
         let items = DataService.shared.items.filter({$0.category == "\(category)"})
         return items
     }
-    
 }
 
 //MARK: Previews

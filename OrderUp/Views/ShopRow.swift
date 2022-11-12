@@ -11,7 +11,6 @@ import SwiftUI
 struct shopRow: View {
     @State private var quantity: Int = 0
     @ObservedObject var cart: CartItem
-    
     var shopItem: ShopItem
     var body: some View {
         
